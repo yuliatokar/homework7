@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background: #3399cc;
+    border: 10px solid #2b81ac;
+    width: 60%;
+    margin: 50px auto;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    font-size: 0;
+}
+
+ul li {
+    display: inline-block;
+    background: coral;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    height: 100px;
+    padding-top: 20px;
+}
+
+li:hover {
+    cursor: pointer;
+    transition: all .1s ease-in;   
+}
+
+ul:hover>li {
+    opacity: 20%;
+}
+
+ul:hover>li:hover {
+    opacity: 100%;
+}
+
+li:first-child {
+    width: 50%;
+    background: #3399cc;
+}
+
+li:nth-child(2) {
+    width: 25%;
+    background: #33cccc;
+}
+
+li:nth-child(3) {
+    width: 25%;
+    background: #996699;
+}
+
+li:nth-child(4) {
+    width: 25%;
+    background: #c24747;
+}
+
+li:nth-child(5) {
+    width: 25%;
+    background: #e2674a;
+}
+
+li:nth-child(6) {
+    width: 25%;
+    background: #ffcc66;
+}
+
+li:nth-child(7) {
+    width: 25%;
+    background: #99cc99;
+}
+
+li:nth-child(8) {
+    width: 25%;
+    background: #669999;
+}
+
+li:nth-child(9) {
+    width: 50%;
+    background: #cc6699;
+}
+
+li:nth-child(10) {
+    width: 25%;
+    background: #339966;
+}
+
+li:last-child {
+    width: 100%;
+    background: #666699;
+}
+
+li > p {
+    margin-top: 15px;
+    opacity: 70%;
+}
+
+p > i {
+    font-size: 24px;
+}
+
+header,
+footer {
+    color: white;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;
+}
